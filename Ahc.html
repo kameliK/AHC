@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Amman House Community | Summer Sessions 2026</title>
+<meta name="description" content="AHC Summer Sessions — 16 May 2026. Mountain Breeze, Amman. Limited entry.">
+<meta name="keywords" content="Amman House Community, AHC, Summer Sessions, house music Amman, Jordan events">
+<link rel="canonical" href="https://www.ammanhousecommunity.com/">
+<meta property="og:title" content="AHC — Summer Sessions 2026">
+<meta property="og:description" content="16 May 2026 · Mountain Breeze · Limited Entry · 35 JOD">
+<meta property="og:url" content="https://www.ammanhousecommunity.com/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://i.imgur.com/WRkaLcJ.png">
+<link rel="icon" type="image/png" href="https://i.imgur.com/WRkaLcJ.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"AHC Summer Sessions","startDate":"2026-05-16T15:00","endDate":"2026-05-16T22:00","location":{"@type":"Place","name":"Mountain Breeze","address":{"@type":"PostalAddress","addressLocality":"Amman","addressCountry":"JO"}},"organizer":{"@type":"Organization","name":"Amman House Community","url":"https://www.ammanhousecommunity.com"}}</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="Ahc.css">
+</head>
+<body>
+
+<!-- Grain -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ── STICKY BAR ── -->
+<div class="sticky-bar" id="sBar">
+  <div class="sb-left">
+    <div class="sb-name">Summer Sessions — 16 May 2026</div>
+    <div class="sb-alert">Last spots available</div>
+  </div>
+  <a href="#request" class="sb-btn" onclick="closeMenu()">
+    Request Spot
+    <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+  </a>
+</div>
+
+<!-- ── NAV ── -->
+<nav id="NAV">
+  <a href="#" class="nav-logo" onclick="go('home');return false">AHC</a>
+  <div class="nav-mid">
+    <a href="#" class="active" onclick="go('home',this);return false">Home</a>
+    <a href="#" onclick="go('reach',this);return false">Reach Out</a>
+  </div>
+ 
+  <button class="hamburger" id="BRG" onclick="toggleMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mob-menu" id="MOB">
+  <a href="#" class="active" onclick="goMobile('home',this);return false">Home</a>
+  <a href="#" onclick="goMobile('reach',this);return false">Reach Out</a>
+  <a href="#request" class="mob-cta" onclick="go('home');closeMenu();return false">→ Request Your Spot</a>
+</div>
+
+<!-- ══════════════════════════════════════════
+     HOME
+══════════════════════════════════════════ -->
+<div class="page active" id="home">
+
+<!-- ── § 1 HERO ── -->
+<section class="hero" aria-label="Hero">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="hcol" id="C0"><div class="slide"></div><div class="slide"></div></div>
+    <div class="hcol" id="C1"><div class="slide"></div><div class="slide"></div></div>
+    <div class="hcol" id="C2"><div class="slide"></div><div class="slide"></div></div>
+  </div>
+  <div class="hero-ov1" aria-hidden="true"></div>
+  <div class="hero-ov2" aria-hidden="true"></div>
+  <div class="hero-spot" aria-hidden="true"></div>
+  <div class="hero-spot-b" aria-hidden="true"></div>
+  <div class="hero-beams" aria-hidden="true">
+    <div class="beam beam-1"></div>
+    <div class="beam beam-2"></div>
+    <div class="beam beam-3"></div>
+  </div>
+  <div class="hero-grid" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <div class="hero-edition">AHC · Vol. 01 · 2026</div>
+    <div class="hero-date">16 May 2026 &nbsp;·&nbsp; Mountain Breeze &nbsp;·&nbsp; Amman, JO</div>
+
+    <h1 class="hero-title">
+      <span class="block">Summer</span>
+      <span class="block gold">Sessions</span>
+    </h1>
+
+    <div class="hero-subtitle">Amman House Community</div>
+
+    <div class="hero-rule" aria-hidden="true">
+      <div class="rule-line"></div>
+      <div class="rule-diamond"></div>
+      <div class="rule-line r"></div>
+    </div>
+
+    <div class="hero-venue" aria-label="Event details">
+      <div class="hv-item"><span>Venue</span>Mountain Breeze</div>
+      <div class="hv-item"><span>Time</span>3PM — 10PM</div>
+      <div class="hv-item"><span>Price</span>35 JOD</div>
+    </div>
+
+    <div class="hero-ctas">
+      <a href="#request" class="btn-gold">
+        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        Request Your Spot
+      </a>
+      <a href="#lineup" class="btn-ghost">View Lineup</a>
+    </div>
+  </div>
+
+  <div class="hero-fade" aria-hidden="true"></div>
+</section>
+
+<!-- TICKER 1 -->
+<div class="ticker-wrap" aria-hidden="true">
+  <div class="t-inner">
+    <span>Summer Sessions</span><span class="dot">◆</span><span>16 May 2026</span><span class="dot">◆</span><span>Mountain Breeze</span><span class="dot">◆</span><span>Limited Entry</span><span class="dot">◆</span><span>35 JOD</span><span class="dot">◆</span><span>By Approval Only</span><span class="dot">◆</span>
+    <span>Summer Sessions</span><span class="dot">◆</span><span>16 May 2026</span><span class="dot">◆</span><span>Mountain Breeze</span><span class="dot">◆</span><span>Limited Entry</span><span class="dot">◆</span><span>35 JOD</span><span class="dot">◆</span><span>By Approval Only</span><span class="dot">◆</span>
+  </div>
+</div>
+
+<!-- ── § 2 INTRO ── -->
+<section class="intro-section" aria-label="About AHC">
+  <div class="intro-inner">
+    <div class="intro-left reveal">
+      <span class="intro-tag">Who We Are</span>
+      <h2 class="section-h">Amman<br><span class="accent">House</span><br>Community</h2>
+      <div class="intro-body">
+        <p>AHC is a <strong>culture-driven movement</strong> built in the heart of Amman — uniting people through music, shared experiences, and the power of community.</p>
+        <p>We don't just throw parties. We curate <strong>moments that stay with you</strong>. Exclusive guest lists. World-class sound. Settings that transform.</p>
+        <a href="#lineup" class="cta-link">
+          View This Season's Lineup
+          <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="intro-right reveal reveal-delay-2">
+      <div class="stat-card">
+        <div class="stat-n">01+</div>
+        <div class="stat-l">Events Delivered</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-n">∞</div>
+        <div class="stat-l">Pure Energy</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-n">100%</div>
+        <div class="stat-l">Curated Entry</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-n">JO</div>
+        <div class="stat-l">Amman, Jordan</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER 2 -->
+<div class="ticker-wrap rev" aria-hidden="true">
+  <div class="t-inner">
+    <span>Culture</span><span class="dot">◆</span><span>Music</span><span class="dot">◆</span><span>Community</span><span class="dot">◆</span><span>Underground</span><span class="dot">◆</span><span>Premium</span><span class="dot">◆</span><span>Exclusive</span><span class="dot">◆</span><span>Amman</span><span class="dot">◆</span>
+    <span>Culture</span><span class="dot">◆</span><span>Music</span><span class="dot">◆</span><span>Community</span><span class="dot">◆</span><span>Underground</span><span class="dot">◆</span><span>Premium</span><span class="dot">◆</span><span>Exclusive</span><span class="dot">◆</span><span>Amman</span><span class="dot">◆</span>
+  </div>
+</div>
+
+<!-- ── § 3 LINEUP ── -->
+<section class="lineup-section" id="lineup" aria-label="Artist lineup">
+  <div class="lineup-inner">
+    <div class="section-header reveal">
+      <h2 class="section-h">The <span class="accent">Lineup</span></h2>
+      <div class="section-subline">Summer Sessions · Vol. 01</div>
+    </div>
+    <div class="lineup-list reveal reveal-delay-1">
+      <div class="lineup-row">
+        <div class="row-left">
+          <span class="row-num">01</span>
+          <span class="artist-name">DJ Kareem Halaseh</span>
+          <span class="row-tag">Headliner</span>
+        </div>
+        <span class="row-arr">↗</span>
+      </div>
+      <div class="lineup-tba">More Artists — To Be Announced</div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER 3 -->
+<div class="ticker-wrap" aria-hidden="true">
+  <div class="t-inner">
+    <span>World-Class Sound</span><span class="dot">◆</span><span>Curated Guest List</span><span class="dot">◆</span><span>Limited Capacity</span><span class="dot">◆</span><span>Exclusive Access</span><span class="dot">◆</span><span>Don't Miss Out</span><span class="dot">◆</span>
+    <span>World-Class Sound</span><span class="dot">◆</span><span>Curated Guest List</span><span class="dot">◆</span><span>Limited Capacity</span><span class="dot">◆</span><span>Exclusive Access</span><span class="dot">◆</span><span>Don't Miss Out</span><span class="dot">◆</span>
+  </div>
+</div>
+
+<!-- ── § 4 COUNTDOWN + TICKET ── -->
+<section class="event-block" aria-label="Event timing and tickets">
+  <div class="event-block-inner">
+    <!-- Countdown -->
+    <div class="cd-wrap reveal">
+      <span class="cd-label">Event Starts In</span>
+      <div class="cd-grid" id="CDG">
+        <div class="cd-box"><div class="cd-n" id="cd-d">00</div><div class="cd-u">Days</div></div>
+        <div class="cd-box"><div class="cd-n" id="cd-h">00</div><div class="cd-u">Hours</div></div>
+        <div class="cd-box"><div class="cd-n" id="cd-m">00</div><div class="cd-u">Mins</div></div>
+        <div class="cd-box"><div class="cd-n" id="cd-s">00</div><div class="cd-u">Secs</div></div>
+      </div>
+      <div class="cd-fomo">Once it's sold out — it's gone</div>
+    </div>
+
+    <!-- Ticket -->
+    <div class="ticket-card reveal reveal-delay-2">
+      <div class="ticket-top">
+        <div class="t-tier">General Admission</div>
+        <div class="t-name">Summer Sessions</div>
+        <div class="t-details">
+          <span>16 May 2026</span><span class="s">·</span>
+          <span>3PM — 10PM</span><span class="s">·</span>
+          <span>Mountain Breeze</span>
+        </div>
+        <div class="t-avail">Last spots — filling fast</div>
+      </div>
+      <div class="ticket-bottom">
+        <div class="t-price-lbl">Price</div>
+        <div class="t-price">35<small>JOD</small></div>
+        <div class="t-incl">Per person · Entry included</div>
+        <button class="t-btn" onclick="document.getElementById('request').scrollIntoView({behavior:'smooth'})">
+          Request Spot Now
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── § 5 GALLERY ── -->
+<section class="gallery-section" aria-label="Past events gallery">
+  <div class="gallery-inner">
+    <div class="section-header reveal">
+      <h2 class="section-h">You Had To<br><span class="accent">Be There</span></h2>
+      <div class="section-subline">AHC · Past Experiences</div>
+    </div>
+
+    <div class="gallery-grid reveal reveal-delay-1">
+      <div class="g-card tall">
+        <img src="https://i.imgur.com/6VXk57c.jpg" alt="AHC event — the crowd" loading="lazy">
+        <div class="g-overlay">
+          <div class="g-title">The Crowd</div>
+          <div class="g-sub">AHC · Vol. 00</div>
+        </div>
+      </div>
+      <div class="g-card">
+        <img src="https://i.imgur.com/cwTVmwC.jpg" alt="AHC atmosphere" loading="lazy">
+        <div class="g-overlay">
+          <div class="g-title">The Vibe</div>
+          <div class="g-sub">Energy · Connection</div>
+        </div>
+      </div>
+      <div class="g-card">
+        <img src="https://i.imgur.com/clMUoQb.jpg" alt="AHC DJ set" loading="lazy">
+        <div class="g-overlay">
+          <div class="g-title">On The Decks</div>
+          <div class="g-sub">World-Class Sound</div>
+        </div>
+      </div>
+      <div class="g-card">
+        <img src="https://i.imgur.com/KkkA2uh.jpg" alt="AHC community" loading="lazy">
+        <div class="g-overlay">
+          <div class="g-title">The Community</div>
+          <div class="g-sub">AHC Family</div>
+        </div>
+      </div>
+      <div class="g-card">
+        <img src="https://i.imgur.com/8cIGjW9.jpg" alt="AHC night" loading="lazy">
+        <div class="g-overlay">
+          <div class="g-title">Night Vibes</div>
+          <div class="g-sub">Memories Made</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER 4 -->
+<div class="ticker-wrap rev" aria-hidden="true">
+  <div class="t-inner">
+    <span>Request Your Spot Now</span><span class="dot">◆</span><span>Limited Capacity</span><span class="dot">◆</span><span>By Approval Only</span><span class="dot">◆</span><span>Summer Sessions 2026</span><span class="dot">◆</span><span>Don't Sleep On This</span><span class="dot">◆</span>
+    <span>Request Your Spot Now</span><span class="dot">◆</span><span>Limited Capacity</span><span class="dot">◆</span><span>By Approval Only</span><span class="dot">◆</span><span>Summer Sessions 2026</span><span class="dot">◆</span><span>Don't Sleep On This</span><span class="dot">◆</span>
+  </div>
+</div>
+
+<!-- ── § 6 FORM ── -->
+<section class="form-section" id="request" aria-label="Request form">
+  <div class="form-inner">
+    <span class="intro-tag" style="display:block;margin-bottom:12px">Apply Now</span>
+    <h2 class="section-h">Request<br><span class="accent">Your Spot</span></h2>
+    <p class="form-intro">AHC runs a curated guest list. Fill in your details — we review every request and respond within 24 hours.</p>
+
+    <div class="form-card" id="FCARD">
+      <div class="form-grp">
+        <label>Full Name<span class="req">*</span></label>
+        <input type="text" class="form-inp" id="f-name" placeholder="Your full name" autocomplete="name">
+      </div>
+      <div class="form-row">
+        <div class="form-grp">
+          <label>Age<span class="req">*</span></label>
+          <input type="number" class="form-inp" id="f-age" placeholder="21" min="18" max="99">
+        </div>
+        <div class="form-grp">
+          <label>Phone<span class="req">*</span></label>
+          <input type="tel" class="form-inp" id="f-phone" placeholder="+962 7X XXX XXXX" autocomplete="tel">
+        </div>
+      </div>
+      <div class="form-grp">
+        <label>Email<span class="req">*</span></label>
+        <input type="email" class="form-inp" id="f-email" placeholder="your@email.com" autocomplete="email">
+      </div>
+      <div class="form-grp">
+        <label>Instagram<span class="req">*</span></label>
+        <input type="text" class="form-inp" id="f-ig" placeholder="@yourusername">
+      </div>
+      <button class="form-submit" id="FSUB" onclick="submitForm()">
+        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+        Submit Request
+      </button>
+      <p class="form-note">* Required. We respond within 24 hours.</p>
+    </div>
+
+    <div class="form-success" id="FSUC">
+      <span class="fs-icon">✓</span>
+      <div class="fs-title">You're In The Queue</div>
+      <p class="fs-sub">We'll review your request and respond within 24 hours. Check your inbox.</p>
+    </div>
+  </div>
+</section>
+
+</div><!-- /home -->
+
+<!-- ══════════════════════════════════════════
+     REACH OUT
+══════════════════════════════════════════ -->
+<div class="page" id="reach">
+  <div class="reach-page">
+    <div class="reach-inner">
+      <div class="intro-tag" style="display:block;text-align:center;margin-bottom:16px">Get In Touch</div>
+      <h2 class="section-h">Reach <span class="accent">Out</span></h2>
+      <div class="contact-grid">
+        <a href="https://wa.me/962791977991" target="_blank" rel="noopener" class="cc">
+          <span class="cc-arr">↗</span>
+          <svg class="cc-icon" width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.122 1.523 5.862L.057 23.428a.75.75 0 0 0 .916.916l5.566-1.466A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.667-.523-5.187-1.434l-.37-.22-3.835 1.011 1.011-3.835-.22-.37A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          <div class="cc-lbl">WhatsApp</div>
+          <div class="cc-val">Message AHC</div>
+        </a>
+        <a href="tel:+962791977991" class="cc">
+          <span class="cc-arr">↗</span>
+          <svg class="cc-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6.06 6.06l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <div class="cc-lbl">Phone</div>
+          <div class="cc-val">+962 79 197 7991</div>
+        </a>
+        <a href="mailto:info@ammanhousecommunity.com" class="cc">
+          <span class="cc-arr">↗</span>
+          <svg class="cc-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          <div class="cc-lbl">Email</div>
+          <div class="cc-val">info@ammanhousecommunity.com</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="ft-logo">AHC</div>
+      <div class="ft-tagline">Amman House Community</div>
+    </div>
+    <div class="ft-col">
+      <span class="ft-col-title">Contact</span>
+      <p>Amman, Jordan</p>
+      <a href="https://wa.me/962791977991" target="_blank" rel="noopener">+962 79 197 7991</a>
+      <a href="mailto:info@ammanhousecommunity.com">info@ammanhousecommunity.com</a>
+    </div>
+    <div class="ft-col">
+      <span class="ft-col-title">Stay Updated</span>
+      <div class="ft-sub">
+        <input type="email" id="FE" placeholder="your@email.com" autocomplete="email">
+        <button onclick="footerSub()">Subscribe</button>
+      </div>
+      <a href="https://www.instagram.com/ammanhousecommunity/" target="_blank" rel="noopener" class="ig-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        @ammanhousecommunity
+      </a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="ft-copy"><span>Amman House Community</span> &mdash; AHC</div>
+    <div class="ft-copy">Amman, Jordan</div>
+  </div>
+</footer>
+
+<div class="toast" id="TOAST" role="alert" aria-live="polite"></div>
+
+<!-- ══════════════════════════════════════════
+     SCRIPTS
+══════════════════════════════════════════ -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
