@@ -173,9 +173,6 @@ nav.scrolled{background:rgba(8,8,8,.92);backdrop-filter:blur(24px);-webkit-backd
 @keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @keyframes tickerR{from{transform:translateX(-50%)}to{transform:translateX(0)}}
 @keyframes cdGlow{0%{transform:scale(1);box-shadow:0 0 0 0 transparent}50%{box-shadow:0 0 20px 0 rgba(252,245,195,.3)}100%{transform:scale(1.02);box-shadow:0 0 30px 0 rgba(252,245,195,.2)}}
-.cd-wrap.reveal.visible:hover{
-  animation:cdGlow .6s var(--ease) forwards;
-}
 @keyframes lineGrow{from{width:0}to{width:100%}}
 @keyframes imgIn{from{transform:scale(1.12);opacity:0}to{transform:scale(1);opacity:1}}
 @keyframes glow{0%,100%{opacity:.5}50%{opacity:1}}
@@ -403,7 +400,7 @@ nav.scrolled{background:rgba(8,8,8,.92);backdrop-filter:blur(24px);-webkit-backd
    § 3  LINEUP
 ═══════════════════════════════════════════ */
 .lineup-section{
-  padding:120px 24px;
+  padding:60px 24px;
   position:relative;overflow:hidden;
   background:var(--bg);
 }
@@ -414,7 +411,7 @@ nav.scrolled{background:rgba(8,8,8,.92);backdrop-filter:blur(24px);-webkit-backd
   pointer-events:none;
 }
 .lineup-inner{max-width:960px;margin:0 auto}
-.section-header{text-align:center;margin-bottom:64px}
+.section-header{text-align:center;margin-bottom:40px}
 .section-header .section-h{font-size:clamp(3.5rem,8vw,7.5rem)}
 .section-subline{
   font-family:var(--heading);font-size:.62rem;font-weight:700;letter-spacing:5px;text-transform:uppercase;
@@ -427,7 +424,7 @@ nav.scrolled{background:rgba(8,8,8,.92);backdrop-filter:blur(24px);-webkit-backd
 .lineup-row{
   background:var(--bg2);
   display:flex;align-items:center;justify-content:space-between;
-  padding:28px 40px;border-bottom:1px solid var(--border);
+  padding:18px 30px;border-bottom:1px solid var(--border);
   cursor:none;transition:all .3s var(--ease);position:relative;overflow:hidden;
 }
 .lineup-row:last-child{border-bottom:none}
@@ -541,12 +538,12 @@ nav.scrolled{background:rgba(8,8,8,.92);backdrop-filter:blur(24px);-webkit-backd
    § 5  GALLERY
 ═══════════════════════════════════════════ */
 .gallery-section{
-  padding:100px 24px;
+  padding:60px 24px;
   position:relative;overflow:hidden;
   background:var(--bg);
 }
 .gallery-inner{max-width:1100px;margin:0 auto}
-.gallery-inner .section-header{margin-bottom:48px}
+.gallery-inner .section-header{margin-bottom:40px}
 .gallery-grid{
   display:grid;
   grid-template-columns:repeat(3,1fr);
