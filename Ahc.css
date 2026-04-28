@@ -92,6 +92,16 @@ nav.scrolled{background:rgba(8,8,8,.92);backdrop-filter:blur(24px);-webkit-backd
   letter-spacing:4px;
   color:var(--cream);
   text-decoration:none;
+  display:flex;
+  align-items:center;
+  gap:4px;
+}
+.nav-logo svg{
+  width:40px;
+  height:auto;
+}
+.nav-logo span{
+  line-height:1;
 }
 .nav-mid{
   position:absolute;left:50%;transform:translateX(-50%);
@@ -649,8 +659,29 @@ nav.scrolled{background:rgba(8,8,8,.92);backdrop-filter:blur(24px);-webkit-backd
 ═══════════════════════════════════════════ */
 footer{background:var(--bg);border-top:1px solid var(--border);padding:56px 48px 32px}
 .footer-grid{max-width:900px;margin:0 auto 44px;display:grid;grid-template-columns:auto 1fr 1.4fr;gap:56px;align-items:start}
-.ft-logo{font-family:var(--display);font-size:2.5rem;letter-spacing:4px;color:var(--cream);line-height:1}
-.ft-tagline{font-family:var(--heading);font-size:.58rem;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--cream3);margin-top:6px}
+.ft-logo-section{
+  display:flex;
+  align-items:stretch;
+  gap:6px;
+}
+.ft-logo-svg{
+  width:55px;
+  height:100%;
+  flex-shrink:0;
+}
+.ft-logo-text{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.ft-logo{
+  font-family:var(--display);
+  font-size:2.5rem;
+  letter-spacing:4px;
+  color:var(--cream);
+  line-height:1;
+}
+.ft-tagline{font-family:var(--heading);font-size:.58rem;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--cream3);margin-top:2px;white-space:nowrap}
 .ft-col-title{font-family:var(--heading);font-size:.58rem;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--cream2);margin-bottom:16px;display:block}
 .ft-col p,.ft-col a{display:block;font-family:var(--body);font-size:.8rem;font-weight:300;color:rgba(250,240,220,.4);line-height:2.2;text-decoration:none;transition:color .2s}
 .ft-col a:hover{color:var(--cream2)}
@@ -660,7 +691,8 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:56px 48px
 .ft-sub input::placeholder{color:rgba(250,240,220,.2)}
 .ft-sub button{background:var(--primary);color:#080808;border:none;padding:11px 18px;font-family:var(--heading);font-weight:800;font-size:.65rem;letter-spacing:1px;text-transform:uppercase;cursor:none;transition:background .2s}
 .ft-sub button:hover{background:var(--orange)}
-.ig-btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-family:var(--heading);font-size:.65rem;font-weight:600;letter-spacing:1px;color:var(--cream3);padding:8px 14px;border:1px solid var(--border);border-radius:100px;transition:all .25s}
+.ig-btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-family:var(--heading);font-size:.65rem;font-weight:600;letter-spacing:1px;color:var(--cream3);padding:8px 14px;border:1px solid var(--border);border-radius:100px;transition:all .25s;white-space:nowrap}
+.ig-btn svg{vertical-align:middle;flex-shrink:0}
 .ig-btn:hover{color:var(--cream);border-color:var(--border2)}
 .footer-bottom{max-width:900px;margin:0 auto;padding-top:22px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
 .ft-copy{font-family:var(--heading);font-size:.62rem;font-weight:500;letter-spacing:.5px;color:rgba(250,240,220,.25)}
