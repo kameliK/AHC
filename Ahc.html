@@ -31,7 +31,7 @@
     <div class="sb-name">Summer Sessions — 16 May 2026</div>
     <div class="sb-alert">Last spots available</div>
   </div>
-  <a href="#request" class="sb-btn" onclick="closeMenu()">
+  <a href="https://etathkara.com/en/TheGetaway" target="_blank" rel="noopener" class="sb-btn">
     Request Spot
     <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
   </a>
@@ -56,7 +56,6 @@
 <div class="mob-menu" id="MOB">
   <a href="#" class="active" onclick="goMobile('home',this);return false">Home</a>
   <a href="#" onclick="goMobile('reach',this);return false">Reach Out</a>
-  <a href="#request" class="mob-cta" onclick="go('home');closeMenu();return false">→ Request Your Spot</a>
 </div>
 
 <!-- ══════════════════════════════════════════
@@ -106,10 +105,6 @@
     </div>
 
     <div class="hero-ctas">
-      <a href="#request" class="btn-gold">
-        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
-        Request Your Spot
-      </a>
       <a href="#lineup" class="btn-ghost">View Lineup</a>
     </div>
   </div>
@@ -125,7 +120,22 @@
   </div>
 </div>
 
-<!-- ── § 2 INTRO ── -->
+<!-- ── § 2 FEATURED IMAGE ── -->
+<section class="featured-section" aria-label="Featured venue image">
+  <div class="featured-inner">
+    <img src="./pic's/mountain breeze 300-1000pm-1.jpg" alt="Mountain Breeze Venue - Summer Sessions 2026" class="featured-img">
+  </div>
+</section>
+
+<!-- TICKER 2 -->
+<div class="ticker-wrap rev" aria-hidden="true">
+  <div class="t-inner">
+    <span>Culture</span><span class="dot">◆</span><span>Music</span><span class="dot">◆</span><span>Community</span><span class="dot">◆</span><span>Underground</span><span class="dot">◆</span><span>Premium</span><span class="dot">◆</span><span>Exclusive</span><span class="dot">◆</span><span>Amman</span><span class="dot">◆</span>
+    <span>Culture</span><span class="dot">◆</span><span>Music</span><span class="dot">◆</span><span>Community</span><span class="dot">◆</span><span>Underground</span><span class="dot">◆</span><span>Premium</span><span class="dot">◆</span><span>Exclusive</span><span class="dot">◆</span><span>Amman</span><span class="dot">◆</span>
+  </div>
+</div>
+
+<!-- ── § 3 INTRO ── -->
 <section class="intro-section" aria-label="About AHC">
   <div class="intro-inner">
     <div class="intro-left reveal">
@@ -161,15 +171,9 @@
   </div>
 </section>
 
-<!-- TICKER 2 -->
-<div class="ticker-wrap rev" aria-hidden="true">
-  <div class="t-inner">
-    <span>Culture</span><span class="dot">◆</span><span>Music</span><span class="dot">◆</span><span>Community</span><span class="dot">◆</span><span>Underground</span><span class="dot">◆</span><span>Premium</span><span class="dot">◆</span><span>Exclusive</span><span class="dot">◆</span><span>Amman</span><span class="dot">◆</span>
-    <span>Culture</span><span class="dot">◆</span><span>Music</span><span class="dot">◆</span><span>Community</span><span class="dot">◆</span><span>Underground</span><span class="dot">◆</span><span>Premium</span><span class="dot">◆</span><span>Exclusive</span><span class="dot">◆</span><span>Amman</span><span class="dot">◆</span>
-  </div>
-</div>
 
-<!-- ── § 3 LINEUP ── -->
+
+<!-- ── § 4 LINEUP ── -->
 <section class="lineup-section" id="lineup" aria-label="Artist lineup">
   <div class="lineup-inner">
     <div class="section-header reveal">
@@ -202,11 +206,11 @@
         <div class="row-left">
           <span class="row-num">04</span>
           <span class="artist-name">DJ Kareem Halaseh</span>
-          <span class="row-tag">Headliner</span>
+        
         </div>
         <span class="row-arr">↗</span>
       </div>
-      <div class="lineup-tba">More Artists — To Be Announced</div>
+    
     </div>
   </div>
 </section>
@@ -219,7 +223,7 @@
   </div>
 </div>
 
-<!-- ── § 4 COUNTDOWN + TICKET ── -->
+<!-- ── § 5 COUNTDOWN + TICKET ── -->
 <section class="event-block" aria-label="Event timing and tickets">
   <div class="event-block-inner">
     <!-- Countdown -->
@@ -250,15 +254,15 @@
         <div class="t-price-lbl">Price</div>
         <div class="t-price">35<small>JOD</small></div>
         <div class="t-incl">Per person · Entry included</div>
-        <button class="t-btn" onclick="document.getElementById('request').scrollIntoView({behavior:'smooth'})">
+        <a href="https://etathkara.com/en/TheGetaway" target="_blank" rel="noopener" class="t-btn">
           Request Spot Now
-        </button>
+        </a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── § 5 GALLERY ── -->
+<!-- ── § 6 GALLERY ── -->
 <section class="gallery-section" aria-label="Past events gallery">
   <div class="gallery-inner">
     <div class="section-header reveal">
@@ -302,59 +306,6 @@
           <div class="g-sub">Memories Made</div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- TICKER 4 -->
-<div class="ticker-wrap rev" aria-hidden="true">
-  <div class="t-inner">
-    <span>Request Your Spot Now</span><span class="dot">◆</span><span>Limited Capacity</span><span class="dot">◆</span><span>By Approval Only</span><span class="dot">◆</span><span>Summer Sessions 2026</span><span class="dot">◆</span><span>Don't Sleep On This</span><span class="dot">◆</span>
-    <span>Request Your Spot Now</span><span class="dot">◆</span><span>Limited Capacity</span><span class="dot">◆</span><span>By Approval Only</span><span class="dot">◆</span><span>Summer Sessions 2026</span><span class="dot">◆</span><span>Don't Sleep On This</span><span class="dot">◆</span>
-  </div>
-</div>
-
-<!-- ── § 6 FORM ── -->
-<section class="form-section" id="request" aria-label="Request form">
-  <div class="form-inner">
-    <span class="intro-tag" style="display:block;margin-bottom:12px">Apply Now</span>
-    <h2 class="section-h">Request<br><span class="accent">Your Spot</span></h2>
-    <p class="form-intro">AHC runs a curated guest list. Fill in your details — we review every request and respond within 24 hours.</p>
-
-    <div class="form-card" id="FCARD">
-      <div class="form-grp">
-        <label>Full Name<span class="req">*</span></label>
-        <input type="text" class="form-inp" id="f-name" placeholder="Your full name" autocomplete="name">
-      </div>
-      <div class="form-row">
-        <div class="form-grp">
-          <label>Age<span class="req">*</span></label>
-          <input type="number" class="form-inp" id="f-age" placeholder="21" min="18" max="99">
-        </div>
-        <div class="form-grp">
-          <label>Phone<span class="req">*</span></label>
-          <input type="tel" class="form-inp" id="f-phone" placeholder="+962 7X XXX XXXX" autocomplete="tel">
-        </div>
-      </div>
-      <div class="form-grp">
-        <label>Email<span class="req">*</span></label>
-        <input type="email" class="form-inp" id="f-email" placeholder="your@email.com" autocomplete="email">
-      </div>
-      <div class="form-grp">
-        <label>Instagram<span class="req">*</span></label>
-        <input type="text" class="form-inp" id="f-ig" placeholder="@yourusername">
-      </div>
-      <button class="form-submit" id="FSUB" onclick="submitForm()">
-        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
-        Submit Request
-      </button>
-      <p class="form-note">* Required. We respond within 24 hours.</p>
-    </div>
-
-    <div class="form-success" id="FSUC">
-      <span class="fs-icon">✓</span>
-      <div class="fs-title">You're In The Queue</div>
-      <p class="fs-sub">We'll review your request and respond within 24 hours. Check your inbox.</p>
     </div>
   </div>
 </section>

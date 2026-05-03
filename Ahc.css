@@ -527,8 +527,8 @@ nav.scrolled{background:rgba(8,8,8,.92);backdrop-filter:blur(24px);-webkit-backd
   margin-top:22px;width:100%;
   font-family:var(--heading);font-size:.72rem;font-weight:800;letter-spacing:2px;text-transform:uppercase;
   color:#080808;background:var(--primary);
-  padding:16px;border-radius:12px;border:none;cursor:none;
-  transition:all .25s var(--ease);position:relative;overflow:hidden;
+  padding:16px;border-radius:24px;border:none;cursor:none;
+  transition:all .25s var(--ease);position:relative;overflow:hidden;text-decoration:none;
 }
 .t-btn::before{content:'';position:absolute;inset:0;background:rgba(8,8,8,.1);transform:translateX(-101%);transition:transform .35s var(--ease)}
 .t-btn:hover::before{transform:translateX(0)}
@@ -576,8 +576,11 @@ nav.scrolled{background:rgba(8,8,8,.92);backdrop-filter:blur(24px);-webkit-backd
 .g-sub{font-family:var(--heading);font-size:.58rem;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--cream2);margin-top:4px}
 
 /* ═══════════════════════════════════════════
-   § 6  FORM
+   § 6  FEATURED IMAGE
 ═══════════════════════════════════════════ */
+.featured-section{padding:60px 24px;background:var(--bg)}
+.featured-inner{max-width:1200px;margin:0 auto}
+.featured-img{width:100%;height:auto;display:block;border-radius:8px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
 .form-section{
   padding:120px 24px;border-top:1px solid var(--border);
   position:relative;overflow:hidden;background:var(--bg2);
